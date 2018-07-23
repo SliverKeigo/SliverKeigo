@@ -33,9 +33,8 @@
 </div>
 
 ### ⚡️ A Few Quick Facts
-- 🧸 A current college student
-- 🌱 I’m currently learning React、Go、Rust <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
-- 👜 Full-stack engineer
+- 🧸 A Full-stack engineer
+- 🌱 I’m currently learning React、Rust <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 - ⚡ Fun fact: I ❤️ React
 
 
