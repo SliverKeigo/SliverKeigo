@@ -1,5 +1,5 @@
 
-| <img align="center" src="https://github-readme-stats-xcanwin.vercel.app/api?username=SliverKeigo&show_icons=true&theme=vue&hide=contribs,prs&hide_border=true" alt="Anurag's github stats" /> | <img align="center" src="https://github-readme-stats-xcanwin.vercel.app/api/top-langs/?username=SliverKeigo&layout=compact&theme=vue&hide_border=true" /> |
+| <img align="center" src="https://readme-sliverkeigo.vercel.app/api?username=SliverKeigo&show_icons=true&theme=vue&hide=contribs,prs&hide_border=true" alt="Anurag's github stats" /> | <img align="center" src="https://readme-sliverkeigo.vercel.app/api/top-langs/?username=SliverKeigo&layout=compact&theme=vue&hide_border=true" /> |
 | ------------- | ------------- |
 
 
