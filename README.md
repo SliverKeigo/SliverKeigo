@@ -1,6 +1,7 @@
 
-<img align="left" src="https://github-readme-stats.vercel.app/api?username=SliverKeigo&show_icons=true&theme=buefy&hide=prs" height="150px"  width="48%" > 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SliverKeigo&show_icons=true&theme=buefy&layout=compact"width="48%">
+| <img align="center" src="https://github-readme-stats-xcanwin.vercel.app/api?username=SliverKeigo&show_icons=true&theme=vue&hide=contribs,prs" alt="Anurag's github stats" /> | <img align="center" src="https://github-readme-stats-xcanwin.vercel.app/api/top-langs/?username=SliverKeigo&layout=compact&theme=vue" /> |
+| ------------- | ------------- |
+
 
 ### Hi there is Keigo👋  
 
