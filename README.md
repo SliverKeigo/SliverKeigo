@@ -1,6 +1,6 @@
 
-<img  src="https://github-readme-stats.vercel.app/api?username=SliverKeigo&show_icons=true&theme=buefy&hide=prs" height="150px" > 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SliverKeigo&show_icons=true&theme=buefy&layout=compact"width="50%">
+<img align="left" src="https://github-readme-stats.vercel.app/api?username=SliverKeigo&show_icons=true&theme=buefy&hide=prs" height="150px"  width="48%" > 
+<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SliverKeigo&show_icons=true&theme=buefy&layout=compact"width="48%">
 
 ### Hi there is Keigo👋  
 
