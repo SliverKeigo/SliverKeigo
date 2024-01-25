@@ -9,16 +9,6 @@
 有着很多想要实现的目标，但是现在还没有足够去实现的能力。  
 最近正在学习Vue，希望能早日成为一个厨司,而不仅仅只是一个切菜师傅
 
-一个斗码大陆苦逼的三段码之气的少年,
-
-并没有神秘戒指中码老的帮助,
-
-但总有一天,
-
-他会成为斗码大陆中码帝一样的存在。
-
-**三十年河东,三十年河西,莫欺少年穷。**
-
 <!--
 **SliverKeigo/SliverKeigo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
