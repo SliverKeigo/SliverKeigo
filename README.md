@@ -18,11 +18,4 @@
 ![Tools I use](https://skillicons.dev/icons?i=vscode,idea,vercel,cloudflare,git,github,discord)
 
 
-
---------
-
-<p align="center">此文件 <i>README</i> <b>间隔 6 小时</b>自动刷新生成！
-</br>
-最近一次刷新于：2/10/24, 8:16:16 PM
-</p>
   
