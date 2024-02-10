@@ -17,4 +17,10 @@
 
 ![Tools I use](https://skillicons.dev/icons?i=vscode,idea,vercel,cloudflare,git,github,discord)
 
+### ⏲️ This week I spent time on...
 
+<!--START_SECTION:waka-->
+
+
+
+<!--END_SECTION:waka-->
