@@ -3,11 +3,19 @@
 | ------------- | ------------- |
 
 
-### Hi there is Keigo👋  
+## Hi there is Keigo👋  
 
-一位在读大学生，目前正在从事Java开发相关的工作,   
-有着很多想要实现的目标，但是现在还没有足够去实现的能力。  
-最近正在学习Vue，希望能早日成为一个厨司,而不仅仅只是一个切菜师傅
+- 🧸 一位在读大学生
+- 👜 目前正在从事Java开发相关的工作 
+- 😍 Java 爱好者、Vue 用户、Go 初学者 
+
+### 🔭 Tech stack
+
+![Tech stack](https://skillicons.dev/icons?i=nodejs,deno,typescript,rust,golang,electron,tauri,tailwind,vue,nuxt)
+
+### 🛠 Tools I use
+
+![Tools I use](https://skillicons.dev/icons?i=vscode,idea,vercel,cloudflare,git,github,discord)
 
 --------
 
