@@ -11,7 +11,7 @@
 
 ### 🔭 Tech stack
 
-![Tech stack](https://skillicons.dev/icons?i=nodejs,deno,typescript,rust,golang,electron,tauri,tailwind,vue,nuxt)
+![Tech stack](https://skillicons.dev/icons?i=java,typescript,golang,,vue,python)
 
 ### 🛠 Tools I use
 
