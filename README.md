@@ -11,7 +11,7 @@
 
 ### 🔭 Tech stack
 
-![Tech stack](https://skillicons.dev/icons?i=java,typescript,golang,,vue,python)
+![Tech stack](https://skillicons.dev/icons?i=java,typescript,golang,vue,python)
 
 ### 🛠 Tools I use
 
