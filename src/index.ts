@@ -1,6 +1,6 @@
 import { readFile, writeFile } from 'fs/promises';
 import { getFooter } from './footer';
-const TEMPLATE_PATH = 'README.md';
+const TEMPLATE_PATH = 'README.template.md';
 
 const readmeContent: {[ket: string]: Function} = {
   footer: getFooter,
