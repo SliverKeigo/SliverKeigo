@@ -19,8 +19,8 @@ jobs:
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TOTAL: true
-          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
-          COMMIT_MESSAGE: "chore: update wakatime"
+          BLOCKS: =>
+          COMMIT_MESSAGE: Updated waka-readme graph with new metrics
           # COMMITTER_NAME: "SliverKeigo"
           # COMMITTER_EMAIL: "1226355793@qq.com"
           # AUTHOR_NAME: "SliverKeigo"
