@@ -22,13 +22,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 4 hrs 38 mins
+Total Time: 6 hrs 10 mins
 
-Vue.js       2 hrs 48 mins   >>>>>>>>>>>>>>>==========   60.71 %
-TypeScript   1 hr 14 mins    >>>>>>>==================   26.89 %
-YAML         26 mins         >>=======================   09.38 %
-Markdown     4 mins          =========================   01.51 %
-TSConfig     2 mins          =========================   00.97 %
+Vue.js       4 hrs 13 mins   >>>>>>>>>>>>>>>>>========   68.53 %
+TypeScript   1 hr 18 mins    >>>>>====================   21.31 %
+YAML         26 mins         >>=======================   07.04 %
+Markdown     4 mins          =========================   01.14 %
+TSConfig     2 mins          =========================   00.73 %
 ```
 
 <!--END_SECTION:waka-->
