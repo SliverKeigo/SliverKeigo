@@ -5,9 +5,9 @@
 
 ## Hi there is Keigo👋  
 
-- 🧸 一位在读大学生
-- 👜 目前正在从事Java开发相关的工作 
-- 😍 Java 爱好者、Vue 用户、Go 初学者 
+- 🧸 A current college student
+- 👜 Currently working on Java development related jobs 
+- 😍 Java enthusiasts, Vue users, Go beginners 
 
 ### 🔭 Tech stack
 
