@@ -7,15 +7,15 @@
 
 - 🧸 A current college student
 - 👜 Currently working on Java development related jobs 
-- 😍 Java enthusiasts, Vue users, Go beginners 
+- 😍 Java enthusiasts, Vue users, React beginners 
 
 ### 🔭 Tech stack
 
-![Tech stack](https://skillicons.dev/icons?i=java,typescript,golang,vue,python)
+![Tech stack](https://skillicons.dev/icons?i=java,typescript,golang,vue,python,react,mysql)
 
 ### 🛠 Tools I use
 
-![Tools I use](https://skillicons.dev/icons?i=vscode,idea,vercel,cloudflare,git,github,discord)
+![Tools I use](https://skillicons.dev/icons?i=vscode,idea,vercel,cloudflare,git,github,discord,datagrip,DataGrip,typora)
 
 ### ⏲️ This week I spent time on...
 
