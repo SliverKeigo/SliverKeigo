@@ -19,6 +19,9 @@ jobs:
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TOTAL: true
+          SHOW_TOTAL_CODE_TIME: "True"
+          SHOW_LANGUAGE: "True" 
+          SHOW_LINES_OF_CODE: "True" 
           BLOCKS: =>
           COMMIT_MESSAGE: Updated waka-readme graph with new metrics
           # COMMITTER_NAME: "SliverKeigo"
