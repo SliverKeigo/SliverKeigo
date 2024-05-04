@@ -22,13 +22,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 25 hrs 44 mins
+Total Time: 18 hrs 17 mins
 
-TypeScript       15 hrs 54 mins  >>>>>>>>>>>>>>>==========   61.82 %
-Java             7 hrs 16 mins   >>>>>>>==================   28.24 %
-XML              1 hr 7 mins     >========================   04.34 %
-JSON             22 mins         =========================   01.46 %
-.env file        18 mins         =========================   01.17 %
+TypeScript       11 hrs 40 mins  >>>>>>>>>>>>>>>>=========   63.82 %
+Java             4 hrs 53 mins   >>>>>>>==================   26.78 %
+XML              48 mins         >========================   04.44 %
+.env file        18 mins         =========================   01.65 %
+Markdown         10 mins         =========================   00.95 %
 ```
 
 <!--END_SECTION:waka-->
