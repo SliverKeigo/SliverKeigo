@@ -15,7 +15,9 @@ jobs:
     name: Wakatime
     runs-on: ubuntu-latest
     steps:
-      - uses: athul/waka-readme@master
+      - uses: actions/checkout@master
+      - uses: anmol098/waka-readme-stats@master
+
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TOTAL: true
