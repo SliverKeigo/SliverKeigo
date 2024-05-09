@@ -3,19 +3,19 @@
 | ------------- | ------------- | -->
 
 
-## Hi there is Keigo👋  
+## Hi there is Keigo👋
 
-- 🧸 A current college student
-- 👜 Currently working on Java development related jobs 
-- 😍 Java enthusiasts, Vue users, React beginners 
+- 🧸 20-year old full-stack engineer
+- 👨‍💻 Currently engaged in website development
+- 😍 React  Enthusias, Java User     
 
 ### 🔭 Tech stack
 
-![Tech stack](https://skillicons.dev/icons?i=java,typescript,golang,vue,python,react,mysql)
+![Tech stack](https://skillicons.dev/icons?i=react,ts,java,golang,vue,python,mysql,redis,)
 
 ### 🛠 Tools I use
 
-![Tools I use](https://skillicons.dev/icons?i=vscode,idea,vercel,cloudflare,git,github,discord,datagrip,DataGrip,typora)
+![Tools I use](https://skillicons.dev/icons?i=vscode,idea,vercel,cloudflare,git,github,discord,datagrip,DataGrip,typora,twiter)
 
 ### ⏲️ This week I spent time on...
 
