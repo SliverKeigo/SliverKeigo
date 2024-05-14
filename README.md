@@ -7,7 +7,7 @@
 
 - 🧸 20-year old full-stack engineer
 - 👨‍💻 Currently engaged in website development
-- 😍 React  Enthusias, Java User     
+- 😍 React Fans  
 
 ### 🔭 Tech stack
 
