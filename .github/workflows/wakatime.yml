@@ -27,7 +27,7 @@ jobs:
           SHOW_LINES_OF_CODE: "True" 
           BLOCKS: =>
           COMMIT_MESSAGE: Updated waka-readme graph with new metrics
-          # COMMITTER_NAME: "SliverKeigo"
-          # COMMITTER_EMAIL: "1226355793@qq.com"
-          # AUTHOR_NAME: "SliverKeigo"
-          # AUTHOR_EMAIL: "1226355793@qq.com"
+          COMMITTER_NAME: "SliverKeigo"
+          COMMITTER_EMAIL: "1226355793@qq.com"
+          AUTHOR_NAME: "SliverKeigo"
+          AUTHOR_EMAIL: "1226355793@qq.com"
