@@ -52,21 +52,38 @@ jobs:
           git push origin master
           git push
 
-      - name: Update README with Wakatime stats
-        env:
+      - name: Wakatime
+        uses: athul/waka-readme@master
+        
+        with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-        run: |
-          curl -s https://raw.githubusercontent.com/athul/waka-readme/master/action.yml | \
-          yq eval '.inputs' - | \
-          awk 'BEGIN {FS=":"} {print $1 "=" $(NF)}' > waka.env
-          source waka.env
-          yarn add global waka-readme
-          yarn waka-readme
+          SHOW_TOTAL: true
+          SHOW_TOTAL_CODE_TIME: "True"
+          SHOW_LANGUAGE: "True" 
+          SHOW_LINES_OF_CODE: "True" 
+          BLOCKS: =>
+          COMMIT_MESSAGE: Updated waka-readme graph with new metrics
+          COMMITTER_NAME: "SliverKeigo"
+          COMMITTER_EMAIL: "1226355793@qq.com"
+          AUTHOR_NAME: "SliverKeigo"
+          AUTHOR_EMAIL: "1226355793@qq.com"
 
-      - name: Commit and Push the Wakatime stats to the repository
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git add .
-          git commit -m "Updated waka-readme graph with new metrics" --author="SliverKeigo <1226355793@qq.com>"
-          git push
+
+      # - name: Update README with Wakatime stats
+      #   env:
+      #     WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+      #   run: |
+      #     curl -s https://raw.githubusercontent.com/athul/waka-readme/master/action.yml | \
+      #     yq eval '.inputs' - | \
+      #     awk 'BEGIN {FS=":"} {print $1 "=" $(NF)}' > waka.env
+      #     source waka.env
+      #     yarn add global waka-readme
+      #     yarn waka-readme
+
+      # - name: Commit and Push the Wakatime stats to the repository
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: |
+      #     git add .
+      #     git commit -m "Updated waka-readme graph with new metrics" --author="SliverKeigo <1226355793@qq.com>"
+      #     git push
