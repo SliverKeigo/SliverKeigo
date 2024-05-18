@@ -12,22 +12,58 @@ permissions:
   contents: write
 
 jobs:
-  update-readme:
-    name: Wakatime
+  build-and-update-readme:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
-      - uses: athul/waka-readme@master
 
+    steps:
+      - name: Checkout current repository to master branch.
+        uses: actions/checkout@v1
+
+      - name: Setup Nodejs.
+        uses: actions/setup-node@v1
         with:
+          node-version: '16.x'
+
+      - name: Setup Git
+        run: |
+          git config --global user.email "1226355793@qq.com"
+          git config --global user.name "SliverKeigo"
+          
+      - name: Cache dependencies and build outputs to improve workflow execution time.
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-js-${{ hashFiles('**/yarn.lock') }}
+
+      - name: Install dependencies
+        run: npm install -g yarn && yarn
+
+      - name: Generate README file
+        run: yarn gen
+
+      - name: Commit and Push new README.md to the repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git add README.md
+          git commit -m "Generate README file" -a
+          git push
+
+      - name: Update README with Wakatime stats
+        env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TOTAL: true
-          SHOW_TOTAL_CODE_TIME: "True"
-          SHOW_LANGUAGE: "True" 
-          SHOW_LINES_OF_CODE: "True" 
-          BLOCKS: =>
-          COMMIT_MESSAGE: Updated waka-readme graph with new metrics
-          COMMITTER_NAME: "SliverKeigo"
-          COMMITTER_EMAIL: "1226355793@qq.com"
-          AUTHOR_NAME: "SliverKeigo"
-          AUTHOR_EMAIL: "1226355793@qq.com"
+        run: |
+          curl -s https://raw.githubusercontent.com/athul/waka-readme/master/action.yml | \
+          yq eval '.inputs' - | \
+          awk 'BEGIN {FS=":"} {print $1 "=" $(NF)}' > waka.env
+          source waka.env
+          yarn add global waka-readme
+          yarn waka-readme
+
+      - name: Commit and Push the Wakatime stats to the repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git add .
+          git commit -m "Updated waka-readme graph with new metrics" --author="SliverKeigo <1226355793@qq.com>"
+          git push
