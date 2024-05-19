@@ -21,7 +21,15 @@
 
 <!--START_SECTION:waka-->
 
+```txt
+Total Time: 34 hrs 28 mins
 
+Java             20 hrs 24 mins  >>>>>>>>>>>>>>>==========   59.15 %
+TypeScript       11 hrs 47 mins  >>>>>>>>>================   34.21 %
+Astro            32 mins         =========================   01.59 %
+XML              25 mins         =========================   01.24 %
+Markdown         18 mins         =========================   00.89 %
+```
 
 <!--END_SECTION:waka-->
 
