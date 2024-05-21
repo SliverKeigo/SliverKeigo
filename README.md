@@ -21,7 +21,15 @@
 
 <!--START_SECTION:waka-->
 
+```txt
+Total Time: 32 hrs 57 mins
 
+Java             17 hrs 12 mins  >>>>>>>>>>>>>============   52.18 %
+TypeScript       12 hrs 15 mins  >>>>>>>>>================   37.17 %
+XML              44 mins         >========================   02.26 %
+YAML             44 mins         >========================   02.24 %
+JSON             42 mins         >========================   02.13 %
+```
 
 <!--END_SECTION:waka-->
 
