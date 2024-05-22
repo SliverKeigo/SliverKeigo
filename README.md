@@ -17,19 +17,10 @@
 
 ![Tools I use](https://skillicons.dev/icons?i=vscode,idea,vercel,cloudflare,git,github,discord)
 
-### ⏲️ This week I spent time on...
+### :bar_chart: [Coding time in the last month](https://github.com/muety/wakapi)
 
 <!--START_SECTION:waka-->
 
-```txt
-Total Time: 33 hrs 45 mins
-
-TypeScript         15 hrs 27 mins  >>>>>>>>>>>==============   45.78 %
-Java               15 hrs 20 mins  >>>>>>>>>>>==============   45.43 %
-YAML               1 hr 3 mins     >========================   03.14 %
-XML                45 mins         >========================   02.25 %
-JSON               41 mins         >========================   02.06 %
-```
 
 <!--END_SECTION:waka-->
 
