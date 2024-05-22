@@ -17,9 +17,10 @@
 
 ![Tools I use](https://skillicons.dev/icons?i=vscode,idea,vercel,cloudflare,git,github,discord)
 
-### :bar_chart: [Coding time in the last month](https://github.com/muety/wakapi)
+### ⏲️ This week I spent time on...
 
 <!--START_SECTION:waka-->
+
 
 
 <!--END_SECTION:waka-->
@@ -29,6 +30,6 @@
 
 <p align="center">此文件 <i>README</i> <b>间隔 6 小时</b>自动刷新生成！
 </br>
-最近一次刷新于：5/22/24, 9:15:55 AM
+最近一次刷新于：5/22/24, 10:50:32 AM
 </p>
   
