@@ -53,7 +53,7 @@ jobs:
           git push
 
       - name: Wakatime
-        uses: athul/waka-readme@master
+        uses: athul/waka-readme@8539bedb8277066fc9fe1b47d1f9b108eb866494
         
         with:
           API_BASE_URL: ${{ secrets.WAKAPI_BASE_URL }}
