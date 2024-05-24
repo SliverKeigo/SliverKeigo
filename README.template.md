@@ -1,21 +1,51 @@
 
-<!-- | <img align="center" src="https://github-readme-stats.vercel.app/api?username=SliverKeigo&show_icons=true&theme=vue&hide=contribs,prs&hide_border=true&count_private=true" alt="Anurag's github stats" /> | <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SliverKeigo&layout=compact&theme=vue&hide_border=true&hide=javascript,html,css&count_private=true" /> |
-| ------------- | ------------- | -->
+<h2 align="center">Hi there<img src="https://cdn.jsdelivr.net/gh/dmego/images/img/Hi.gif" height="32" />, I'm Keigo </h2>
+<h3 align="center">A developer from China</h3>
 
+<a href="#stats" align="center">
+  <picture>
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api?username=SliverKeigo&count_private=true&show_icons=true&include_all_commits=true&show_owner=true&theme=github_dark&hide_border=true&bg_color=00000000"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api?username=SliverKeigo&count_private=true&show_icons=true&include_all_commits=true&show_owner=true&theme=default&hide_border=true&bg_color=00000000"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api?username=SliverKeigo&count_private=true&show_icons=true&include_all_commits=true&show_owner=true&theme=transparent" />
+  </picture>
+</a>
 
-## Hi there is Keigo👋  
+<a href="#stats" align="center">
+  <picture>
+    <source 
+      srcset="https://github-readme-streak-stats.herokuapp.com?user=SliverKeigo&theme=transparent&hide_border=true"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-streak-stats.herokuapp.com?user=SliverKeigo&theme=transparent&hide_border=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=SliverKeigo&theme=transparent&hide_border=true" />
+  </picture>
+</a>
 
-- 🧸 A current college student
-- 👜 non-stack engineer
-- 😍 React fans 
+### ⚡️ A Few Quick Facts
+<ul>
+    <li> 🧸 A current college student.</li>
+    <li> 🌱 I’m currently learning React、Go、Rust.</li>
+    <li> 👜 Full-stack engineer.</li>
+    <li> ⚡ Fun fact: I ❤️ React.</li>
+</ul>
+
 
 ### 🔭 Tech stack
 
-![Tech stack](https://skillicons.dev/icons?i=java,typescript,golang,vue,python)
+![Tech stack](https://skillicons.dev/icons?i=java,typescript,golang,vue,redis,python,tailwind,js,html,mysql,md)
 
 ### 🛠 Tools I use
 
-![Tools I use](https://skillicons.dev/icons?i=vscode,idea,vercel,cloudflare,git,github,discord)
+![Tools I use](https://skillicons.dev/icons?i=vscode,idea,vercel,cloudflare,git,github,discord,postman)
 
 
 ### :bar_chart: [Coding time in the last month](https://github.com/muety/wakapi)
