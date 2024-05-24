@@ -56,6 +56,7 @@ jobs:
         uses: dmego/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SHOW_TOTAL: true
           SHOW_TOTAL_CODE_TIME: "True"
           SHOW_LANGUAGE: "True" 
