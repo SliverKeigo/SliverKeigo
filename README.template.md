@@ -17,9 +17,10 @@
 
 ![Tools I use](https://skillicons.dev/icons?i=vscode,idea,vercel,cloudflare,git,github,discord)
 
-### :bar_chart: [Coding time in the last month](https://github.com/muety/wakapi)
+
 
 <!--START_SECTION:waka-->
+
 
 
 
