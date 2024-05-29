@@ -52,8 +52,15 @@
 ### :bar_chart: [Coding time in the last month](https://github.com/muety/wakapi)
 <!--START_SECTION:waka-->
 
+```txt
+Total Time: 128 hrs 51 mins
 
-
+TypeScript         66 hrs 30 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   51.61 %
+Java               47 hrs 1 min    🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   36.48 %
+XML                3 hrs 36 mins   🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.80 %
+JSON               2 hrs 49 mins   🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.19 %
+Astro              2 hrs 42 mins   🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.10 %
+```
 
 <!--END_SECTION:waka-->
 
