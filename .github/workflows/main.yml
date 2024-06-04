@@ -1,40 +1,24 @@
-name: README build
+name: Waka Readme Stats
 
 on:
   push:
-    branches:
-      - master
+    branches: [master]
+    pull_request:
+      branches: [master]
   schedule:
-    - cron: '*/1 * * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *'
 
 jobs:
-  build:
+  update-readme:
+    name: Update Readme with Metrics
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout current repository to master branch.
-        uses: actions/checkout@v1
-      - name: Setup Nodejs.
-        uses: actions/setup-node@v1
+      - uses: cxyfreedom/waka-readme-stats@master
         with:
-          node-version: '16.x'
-
-      - name: Setup Git
-        run: |
-          git config --global user.email "1226355793@qq.com"
-          git config --global user.name "SliverKeigo"
-          
-      - name: Cache dependencies and build outputs to improve workflow execution time.
-        uses: actions/cache@v1
-        with:
-          path: node_modules
-          key: $<!--swig￼0-->-js-$<!--swig￼1-->
-      - name: Install dependencies
-        run: npm install -g yarn && yarn
-      - name: Generate README file
-        run: yarn gen
-      - name: Commit and Push new README.md to the repository
-        uses: mikeal/publish-to-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SHOW_PROJECTS: "False"
+          SHOW_TIMEZONE: "False"
+          SHOW_LOC_CHART: "False"
+          SHOW_LINES_OF_CODE: "False"
+          SHOW_PROFILE_VIEWS: "False"
