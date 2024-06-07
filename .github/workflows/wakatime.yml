@@ -26,10 +26,6 @@ jobs:
         with:
           node-version: '16.x'
 
-      - name: Setup Git
-        run: |
-          git config --global user.email "1226355793@qq.com"
-          git config --global user.name "SliverKeigo"
           
       - name: Cache dependencies and build outputs to improve workflow execution time.
         uses: actions/cache@v1
@@ -63,7 +59,3 @@ jobs:
           COMMIT_MESSAGE: Update Wakapi stats
           BLOCKS: "⬜🟨🟩"
           TIME_RANGE: last_30_days
-          COMMITTER_NAME: "SliverKeigo"
-          COMMITTER_EMAIL: "1226355793@qq.com"
-          AUTHOR_NAME: "SliverKeigo"
-          AUTHOR_EMAIL: "1226355793@qq.com"
