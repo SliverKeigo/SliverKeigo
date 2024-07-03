@@ -32,12 +32,11 @@
 </div>
 
 ### ⚡️ A Few Quick Facts
-<ul>
-    <li> 🧸 A current college student.</li>
-    <li> 🌱 I’m currently learning React、Go、Rust.</li>
-    <li> 👜 Full-stack engineer.</li>
-    <li> ⚡ Fun fact: I ❤️ React.</li>
-</ul>
+- 🧸 A current college student
+- 🌱 I’m currently learning React、Go、Rust <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+- 👜 Full-stack engineer
+- ⚡ Fun fact: I ❤️ React
+
 
 
 ### 🔭 Tech stack
