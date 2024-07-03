@@ -32,12 +32,11 @@
 </div>
 
 ### ⚡️ A Few Quick Facts
-<ul>
-    <li> 🧸 A current college student.</li>
-    <li> 🌱 I’m currently learning React、Go、Rust.</li>
-    <li> 👜 Full-stack engineer.</li>
-    <li> ⚡ Fun fact: I ❤️ React.</li>
-</ul>
+- 🧸 A current college student
+- 🌱 I’m currently learning React、Go、Rust <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+- 👜 Full-stack engineer
+- ⚡ Fun fact: I ❤️ React
+
 
 
 ### 🔭 Tech stack
@@ -52,15 +51,8 @@
 ### :bar_chart: [Coding time in the last month](https://github.com/muety/wakapi)
 <!--START_SECTION:waka-->
 
-```txt
-Total Time: 148 hrs 5 mins
 
-Java               66 hrs 54 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   45.17 %
-TypeScript         54 hrs 4 mins   🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   36.51 %
-XML                11 hrs 12 mins  🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   07.57 %
-JSON               9 hrs 48 mins   🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   06.62 %
-SQL                2 hrs 43 mins   🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.84 %
-```
+
 
 <!--END_SECTION:waka-->
 
@@ -68,6 +60,6 @@ SQL                2 hrs 43 mins   🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
   <p align="center">
 </br>
-最近一次刷新于：7/2/24, 6:33:03 PM
+最近一次刷新于：7/3/24, 11:41:31 AM
 </p>
   
