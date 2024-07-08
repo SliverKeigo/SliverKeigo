@@ -1,5 +1,6 @@
 
 <h2 align="center">Hi there<img src="https://cdn.jsdelivr.net/gh/dmego/images/img/Hi.gif" height="32" />, I'm Keigo </h2>
+<h3 align="center">A developer from China</h3>
 <div style="display: flex; justify-content: space-between;">
 <a href="#stats" align="center">
   <picture>
@@ -50,15 +51,8 @@
 ### :bar_chart: [Coding time in the last month](https://github.com/muety/wakapi)
 <!--START_SECTION:waka-->
 
-```txt
-Total Time: 161 hrs 50 mins
 
-Java             70 hrs 31 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   43.58 %
-TypeScript       60 hrs 17 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   37.25 %
-XML              14 hrs 22 mins  🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   08.88 %
-JSON             9 hrs 55 mins   🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   06.13 %
-SQL              3 hrs 25 mins   🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   02.12 %
-```
+
 
 <!--END_SECTION:waka-->
 
@@ -66,6 +60,6 @@ SQL              3 hrs 25 mins   🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
   <p align="center">
 </br>
-最近一次刷新于：7/7/24, 6:30:39 PM
+最近一次刷新于：7/8/24, 4:34:27 PM
 </p>
   
