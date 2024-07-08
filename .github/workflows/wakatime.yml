@@ -28,8 +28,10 @@ jobs:
           
       - name: Setup Git
         run: |
-          git config --global user.email "1226355793@qq.com"
-          git config --global user.name "SliverKeigo"
+          if [[ $(date +%u) -ge 6 ]]; then
+              git config --global user.email "1226355793@qq.com"
+              git config --global user.name "SliverKeigo"
+          fi
           
       - name: Cache dependencies and build outputs to improve workflow execution time.
         uses: actions/cache@v1
