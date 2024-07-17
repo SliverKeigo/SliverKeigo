@@ -47,7 +47,7 @@
 ![Tools I use](https://skillicons.dev/icons?i=vscode,idea,vercel,cloudflare,git,github,discord,postman)
 
 
-### :bar_chart: [Coding time in the last month](https://github.com/muety/wakapi)
+
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-653%20hrs%2033%20mins-blue)
 
