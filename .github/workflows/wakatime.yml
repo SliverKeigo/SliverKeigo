@@ -1,71 +1,24 @@
-name: Wakatime
+name: Waka Readme Stats
 
 on:
   push:
-    branches:
-      - master
+    branches: [master]
+    pull_request:
+      branches: [master]
   schedule:
-    - cron: "24 10 * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    - cron: '0 0 * * *'
 
 jobs:
-  build-and-update-readme:
+  update-readme:
+    name: Update Readme with Metrics
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout current repository to master branch.
-        uses: actions/checkout@v2 # 建议使用v2版本
-        with:
-          ref: 'master' # 指定分支名
-
-      - name: Setup Nodejs.
-        uses: actions/setup-node@v1
-        with:
-          node-version: '16.x'
-          
-      - name: Setup Git
-        run: |
-           if [[ -z $(git config --get user.name) ]]; then
-              git config --global user.email "github-actions[bot]@users.noreply.github.com"
-              git config --global user.name "github-actions[bot]"
-           fi
-           if [[ $(date +%u) -ge 6 ]]; then
-              git config --global user.email "1226355793@qq.com"
-              git config --global user.name "SliverKeigo"
-           fi
-          
-      - name: Cache dependencies and build outputs to improve workflow execution time.
-        uses: actions/cache@v1
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-js-${{ hashFiles('**/yarn.lock') }}
-
-      - name: Install dependencies
-        run: npm install -g yarn && yarn
-
-      - name: Generate README file
-        run: yarn gen
-
-      - name: Commit and Push new README.md to the repository
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git add README.md
-          git commit -m "Generate README file" -a
-          git push origin master
-          git push
-
-      - name: Wakatime
-        uses: athul/waka-readme@master
+      - uses: cxyfreedom/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TOTAL: true
-          SHOW_TOTAL_CODE_TIME: true
-          SHOW_LANGUAGE: true 
-          SHOW_LINES_OF_CODE: true 
-          COMMIT_MESSAGE: Update Wakapi stats
-          BLOCKS: "⬜🟨🟩"
-          TIME_RANGE: last_30_days
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SHOW_PROJECTS: "False"
+          SHOW_TIMEZONE: "False"
+          SHOW_LOC_CHART: "False"
+          SHOW_LINES_OF_CODE: "False"
+          SHOW_PROFILE_VIEWS: "False"
