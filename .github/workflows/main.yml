@@ -20,6 +20,7 @@ jobs:
           SHOW_COMMIT: "True"
           SHOW_DAYS_OF_WEEK: "True"
           SHOW_LANGUAGE: "True"
+          SYMBOL_VERSION: 3
           SHOW_OS: "True"
           BLOCKS: "⬜🟨🟩"
           SHOW_PROJECTS: "False"
