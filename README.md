@@ -28,6 +28,8 @@
     <img src="https://github-readme-streak-stats.herokuapp.com?user=SliverKeigo&theme=transparent&hide_border=true" />
   </picture>
 </a>
+
+  <img width="805" src="https://github-readme-activity-graph.vercel.app/graph?username=SliverKeigo&theme=react&hide_border=true&area=true%20Graph" />
 </div>
 
 ### ⚡️ A Few Quick Facts
