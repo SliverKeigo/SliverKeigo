@@ -1,8 +1,8 @@
 
 <h2 align="center">Hi there<img src="https://cdn.jsdelivr.net/gh/dmego/images/img/Hi.gif" height="32" />, I'm Keigo </h2>
-<div style="display: flex; justify-content: space-between;">
+<!-- <div style="display: flex; justify-content: space-between;">
   <img width="805" src="https://github-readme-activity-graph.vercel.app/graph?username=SliverKeigo&theme=react&hide_border=true&area=true%20Graph" />
-</div>
+</div> -->
 
 ### ⚡️ A Few Quick Facts
 - 🧸 A Full-stack engineer
@@ -13,11 +13,11 @@
 
 ### 🔭 Tech stack
 
-![Tech stack](https://skillicons.dev/icons?i=java,typescript,golang,vue,redis,python,tailwind,js,html,mysql,md)
+![Tech stack](https://skillicons.dev/icons?i=typescript,react,java,mysql,golang,redis,python,js,html,md,vue)
 
 ### 🛠 Tools I use
 
-![Tools I use](https://skillicons.dev/icons?i=vscode,idea,vercel,cloudflare,git,github,discord,postman)
+![Tools I use](https://skillicons.dev/icons?i=vscode,idea,webstorm,vercel,cloudflare,git,github,discord,postman)
 
 
 
