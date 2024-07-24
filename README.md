@@ -1,34 +1,6 @@
 
 <h2 align="center">Hi there<img src="https://cdn.jsdelivr.net/gh/dmego/images/img/Hi.gif" height="32" />, I'm Keigo </h2>
 <div style="display: flex; justify-content: space-between;">
-<a href="#stats" align="center">
-  <picture>
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=SliverKeigo&count_private=true&show_icons=true&include_all_commits=true&show_owner=true&theme=github_dark&hide_border=true&bg_color=00000000"
-      media="(prefers-color-scheme: dark)"
-    />
-    <source
-      srcset="https://github-readme-stats.vercel.app/api?username=SliverKeigo&count_private=true&show_icons=true&include_all_commits=true&show_owner=true&theme=default&hide_border=true&bg_color=00000000"
-      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-    />
-    <img src="https://github-readme-stats.vercel.app/api?username=SliverKeigo&count_private=true&show_icons=true&include_all_commits=true&show_owner=true&theme=transparent" />
-  </picture>
-</a>
-
-<a href="#stats" align="center">
-  <picture>
-    <source 
-      srcset="https://github-readme-streak-stats.herokuapp.com?user=SliverKeigo&theme=transparent&hide_border=true"
-      media="(prefers-color-scheme: dark)"
-    />
-    <source
-      srcset="https://github-readme-streak-stats.herokuapp.com?user=SliverKeigo&theme=transparent&hide_border=true"
-      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-    />
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=SliverKeigo&theme=transparent&hide_border=true" />
-  </picture>
-</a>
-
   <img width="805" src="https://github-readme-activity-graph.vercel.app/graph?username=SliverKeigo&theme=react&hide_border=true&area=true%20Graph" />
 </div>
 
